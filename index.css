@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url( image/coin.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    text-align: center;
+    color: #65812ca9;
+}
+
+.header-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+
+header h1{
+    white-space: nowrap
+}
+.display-nav{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
